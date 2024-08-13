@@ -10,3 +10,6 @@ Have read of the [Wiki](https://github.com/nodinosaur/ha_tv_dashboard_wiki/wiki/
 
 ### Links
 - [Wiki](https://github.com/nodinosaur/ha_tv_dashboard_wiki/wiki/HA-TV-Dashboard-about)
+
+### Download
+[![Get it on Google Play](https://raw.githubusercontent.com/wiki/nodinosaur/ha_tv_dashboard_wiki/images/GetItOnGooglePlay_Badge_Web_color_English.png)](https://play.google.com/store/apps/details?id=io.homeassistant.companion.androidtv)
