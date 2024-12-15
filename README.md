@@ -1,13 +1,16 @@
 ### Home Assistant TV Dashboard
-The Home Assistant TV Dashboard companion app started life as an app to simply display a preview of video doorbell or webcam, over time it grew into a fully fledged app that can also multi-live video streams and a Home Assistant dashboard.
+The Home Assistant TV Dashboard companion app started life as an app to simply display a preview of video doorbell or webcam, over time it grew into a fully fledged app that can also multi-live video streams and a Home Assistant dashboard and now...
 
-The notifications are in the global scope of your Android TV device. They will be displayed regardless of which application is running.
+Transform your Android TV experience with **HA TV Dash** - the ultimate app that turns your TV into a powerful information hub through seamless Home Assistant integration. Whether you’re a casual viewer or a tech enthusiast, HA TV Dash enhances your viewing by delivering real-time, relevant information right when you need it. Revolutionize how you interact with your TV like never before!
+
 
 *Some example scenarios:*
 
-- Show a video from your camera on your TV when:
+- Watch your cameras in multi-live on your TV
+- Show a video popup of your camera on your TV when:
   - there is a motion trigger
   - someone is at your door
+- Open a Home Assistant dashboard
 - Send a notification when your dishwasher/clothes dryer or washing machine is ready
 - See the Tube status on your TV
 - See your Calendar
