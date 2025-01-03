@@ -28,3 +28,7 @@ Have read of the [Wiki](https://github.com/nodinosaur/ha_tv_dashboard_wiki/wiki/
 
 ### Download
 [![Get it on Google Play](https://raw.githubusercontent.com/wiki/nodinosaur/ha_tv_dashboard_wiki/images/GetItOnGooglePlay_Badge_Web_color_English.png)](https://bit.ly/3MgvTli)
+
+### Like what been built? Support the project:
+
+[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/hatvdash)
