@@ -23,10 +23,14 @@ Transform your Android TV experience with **HA TV Dash** - the ultimate app that
 Have read of the [Wiki](https://github.com/nodinosaur/ha_tv_dashboard_wiki/wiki/HA-TV-Dashboard-about) how to configure the app.
 
 
-### Links
+### 🔗 Links
 - [Wiki](https://github.com/nodinosaur/ha_tv_dashboard_wiki/wiki/HA-TV-Dashboard-about)
 
-### Download
+### 🛃 BLUEPRINTS
+- [Blueprints](https://github.com/nodinosaur/ha_tv_dashboard_blueprints)
+  - Try them, but they are a 🚧 Work-in-Progress, so pull requests are welcome!
+
+### ⬇️ Download
 [![Get it on Google Play](https://raw.githubusercontent.com/wiki/nodinosaur/ha_tv_dashboard_wiki/images/GetItOnGooglePlay_Badge_Web_color_English.png)](https://play.google.com/store/apps/details?id=io.homeassistant.companion.androidtv)
 
 
