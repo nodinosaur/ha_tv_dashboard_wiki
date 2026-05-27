@@ -1,0 +1,99 @@
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+      
+        ### ⚠️ Rules of Engagement
+        **Please read before submitting:**
+        - **Language:** All discussions must be in **English**.
+        - **Completeness:** You must fill out **all sections** of this template.
+        - **Respect:** This project is maintained by an Engineer in their spare time; help me help you by being clear.
+        - **Automatic Closure:** discussions that are not in English or are incomplete will be closed immediately.
+
+        ---
+        ### Welcome! 🚀
+        Thanks for helping make **HA TV Dashboard** better. I prioritise features that are functional, and will benefit most users
+  - type: input
+    id: feature-title
+    attributes:
+      label: "Short Feature Title"
+      description: "A punchy name for this idea."
+      placeholder: "e.g., Dynamic Button Colors based on State"
+    validations:
+      required: true
+  - type: dropdown
+    id: impact-area
+    attributes:
+      label: "What area does this affect?"
+      description: "You may select more than one if applicable."
+      multiple: true
+      options:
+        - User Interface (UI/UX)
+        - Home Control Overlay
+        - Remote Control (Accessibility / Navigation etc.)
+        - Home Assistant Integration (WebSocket)
+        - Notifications
+        - Cameras
+        - Performance & Memory
+        - HA TV Dashboard Wiki Repository (readme, contributing, templates etc.)
+    validations:
+      required: true
+  - type: textarea
+    id: problem-description
+    attributes:
+      label: "The Problem"
+      description: "What is currently frustrating or missing?"
+      placeholder: "When I am doing X, I find it hard to do Y..."
+    validations:
+      required: true
+  - type: textarea
+    id: proposed-solution
+    attributes:
+      label: "The Proposed Solution"
+      description: "How should it work on Android TV?"
+      value: |
+        1. User does X...
+        2. The app shows Y...
+        3. Result is Z...
+    validations:
+      required: true
+  - type: textarea
+    id: design-mockups
+    attributes:
+      label: "Screenshots or Video"
+      description: "Drag and drop images directly into this box to help me understand the suggestion better (visual mockup etc.)"
+      placeholder: "Paste or drag screenshots here..."
+    validations:
+      required: false
+  - type: upload
+    id: design-mockups-upload
+    attributes:
+      label: "Visuals / Mockups"
+      description: "Upload a screenshot, sketch, or design mockup for this feature, if applicable."
+    validations:
+      required: false
+      accept: ".png,.jpg,.jpeg,.gif,.svg,.webp"
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: "Additional Information"
+      description: "Anything else I should know? (e.g., more information on how to implement it, links to similar features in other apps etc.)."
+  - type: textarea
+    id: ha-config
+    attributes:
+      label: "Home Assistant Context (Optional)"
+      description: "If this involves specific YAML config, please share it."
+      render: yaml
+      placeholder: |
+        light:
+          - platform: ...
+  - type: checkboxes
+    id: validation-checklist
+    attributes:
+      label: "Readiness Check"
+      options:
+        - label: "I understand that Android TV devices can behave quite differently depending on the manufacturer, Android version, input handling, and available hardware resources, so occasionally issues appear on specific devices that are difficult to reproduce without access to the hardware itself."
+          required: true
+        - label: "I am willing to help provide more information upon request, and test beta builds of this feature."

@@ -1,0 +1,80 @@
+title: "[Help]: "
+labels: ["question", "help wanted"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+      
+        ### ⚠️ Rules of Engagement
+        **Please read before submitting:**
+        - **Language:** All discussions must be in **English**.
+        - **Completeness:** You must fill out **all sections** of this template.
+        - **Respect:** This project is maintained by an Engineer in their spare time; help me help you by being clear.
+        - **Automatic Closure:** discussions that are not in English or are incomplete will be closed immediately.
+
+        ---
+        ### Troubleshooting Guide 🔍
+        Before posting, please ensure you are on the latest version of the app and Home Assistant, and through the [Q&A discussions](https://github.com/nodinosaur/ha_tv_dashboard_wiki/discussions/categories/q-a) to see if someone asked your question.
+  - type: input
+    id: hardware-device
+    attributes:
+      label: "Android TV Hardware"
+      description: "Which Android TV device are you running HA TV Dashboard on (maker and model)?"
+      placeholder: "Nvidia Shield TV Pro 2019"
+    validations:
+      required: true
+  - type: input
+    id: app-version
+    attributes:
+      label: "HA TV Dashboard Version"
+      description: "Check the version in the Play Store or App Settings."
+      placeholder: "e.g., 2026.6.0 (150)"
+    validations:
+      required: true
+  - type: input
+    id: ha-version
+    attributes:
+      label: "Home Assistant Core Version"
+      placeholder: "e.g., 2026.5.4"
+    validations:
+      required: true
+  - type: textarea
+    id: issue-description
+    attributes:
+      label: "What is happening?"
+      description: "Describe the behavior you are seeing versus what you expected."
+      placeholder: "e.g., The overlay appears, but the 'Media Toggle' doesn't respond to remote clicks."
+    validations:
+      required: true
+  - type: textarea
+    id: visual-evidence
+    attributes:
+      label: "Screenshots or Video"
+      description: "Drag and drop images or videos directly into this box to help me understand the issue better."
+      placeholder: "Paste or drag screenshots here..."
+    validations:
+      required: false
+  - type: upload
+    id: file-attachments
+    attributes:
+      label: "Upload Configuration or Logs"
+      description: "Drag and drop relevant files here (e.g., your automation YAML or logs)."
+    validations:
+      required: false
+      accept: ".yaml, .txt, .log, .json, .png, .jpg"
+  - type: textarea
+    id: ha-logs
+    attributes:
+      label: "Relevant Logs"
+      description: "Please paste relevant logs from Home Assistant or other sources if available."
+      render: shell
+      placeholder: "Paste logs here..."
+  - type: checkboxes
+    id: sanity-check
+    attributes:
+      label: "Final Checks"
+      options:
+        - label: "I have searched in the Q&A discussions if someone asked this question"
+          required: true
+        - label: "I have restarted both my Android TV and Home Assistant instance."
+          required: true
