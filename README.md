@@ -19,7 +19,7 @@ Transform your Android TV experience with **HA TV Dash** - the ultimate app that
 
 *PIP - Notifications on TV (Video, Transit, Time, Info and more*
 
-(Rough demo edit)[https://youtu.be/J80bHdMurTs] Full video in progress 
+[Rough demo edit](https://youtu.be/J80bHdMurTs) Full video in progress 
 
 
 ### Some example scenarios:
